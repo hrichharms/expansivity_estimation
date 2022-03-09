@@ -2,7 +2,7 @@
 
 ## estimate.c
 
-Given a list of numbers in a file, calculates the dimensional expansivity of that dataset in a binary hamming space according to [this paper](https://people.csail.mit.edu/karger/Papers/neighbor.pdf)'s definition of expansivity.
+Calculates the [dimensional expansivity](https://people.csail.mit.edu/karger/Papers/neighbor.pdf) of the numbers in a specified file in a binary hamming space.
 
 #### Compilation
 `gcc estimate.c -o estimate`
