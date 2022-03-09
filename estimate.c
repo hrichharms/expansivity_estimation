@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 #include <float.h>
+
 
 int hamming_weight(long x) {
     int weight = 0;
@@ -18,7 +18,14 @@ int hamming_distance(long a, long b) {
 }
 
 
-void get_counts(long *points, long points_n, long point, int r, long *count_s, long *count_l) {
+void get_counts(
+    long *points,
+    long points_n,
+    long point,
+    int r,
+    long *count_s,
+    long *count_l
+) {
 
     *count_s = 0;
     *count_l = 0;
